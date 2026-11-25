@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors from DESIGN.md — unchanged */
+  --color-text-primary: #212529;
+  --color-text-secondary: #002147;
+  --color-text-tertiary: #7a7a7a;
+  --color-text-inverse: #ffffff;
+
+  --color-surface-base: #000000;
+  --color-surface-muted: #00008b;
+  --color-surface-strong: #f2f8f1;
+
+  /* Brand blue scale (based on #00008b) for buttons, links, badges */
+  --color-brand-50: #e6e6f7;
+  --color-brand-100: #ccccef;
+  --color-brand-400: #3333bf;
+  --color-brand-500: #0000cd;
+  --color-brand-600: #00008b;
+  --color-brand-700: #000078;
+  --color-brand-800: #000052;
+
+  /* Typography */
+  --font-primary: "Lexend", sans-serif;
+
+  /* FIXED: standard readable scale — previous values (16-40px for xs-4xl)
+     made "text-sm" render larger than normal body text everywhere */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* Spacing — normalized to a consistent 4px rhythm */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+
+  /* FIXED: radius scale — previous values (up to 85px) turned every
+     rounded-lg/xl/2xl element into a stretched pill/oval shape */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+}
